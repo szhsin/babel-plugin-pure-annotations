@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-pure-annotations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mark top-level calls as pure for tree shaking",
   "author": "Zheng Song",
   "license": "MIT",
@@ -9,6 +9,12 @@
   "main": "dist/index.js",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "babel",
+    "plugin",
+    "pure",
+    "annotation"
   ],
   "scripts": {
     "build": "babel src/index.js --out-dir dist",
