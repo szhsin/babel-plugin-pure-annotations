@@ -1,0 +1,19 @@
+{
+  "assumptions": {
+    "noIncompleteNsImportDetection": true,
+    "noDocumentAll": true
+  },
+  "plugins": [
+    ["@babel/plugin-transform-modules-commonjs", { "importInterop": "none" }]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "10"
+        }
+      }
+    ]
+  ]
+}
