@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-pure-annotations",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mark top-level calls as pure for tree shaking",
   "author": "Zheng Song",
   "license": "MIT",
@@ -23,10 +23,12 @@
   "peerDependencies": {
     "@babel/core": "^7.0.0"
   },
+  "dependencies": {
+    "@babel/helper-annotate-as-pure": "^7.15.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
-    "@babel/helper-annotate-as-pure": "^7.15.4",
     "@babel/plugin-transform-modules-commonjs": "^7.15.4",
     "@babel/preset-env": "^7.15.8"
   }
